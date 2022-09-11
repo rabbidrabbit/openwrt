@@ -27,6 +27,7 @@ jobs:
                 echo "CONFIG_PACKAGE_luci=y\n" >> .config
                 echo "CONFIG_PACKAGE_wpad-basic-wolfssl=m\n" >> .config
                 echo "CONFIG_PACKAGE_wpad-wolfssl=y\n" >> .config
+                echo "CONFIG_PACKAGE_luci-app-sqm=y\n" >> .config
                 echo "CONFIG_WOLFSSL_HAS_CPU_CRYPTO=y\n" >> .config
                 make defconfig
 
